@@ -1,0 +1,36 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest files
+.pytest_cache/
+
+# Local SQLite databases
+nvr_camera.db
+test_nvr_camera.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Test and coverage output
+.coverage
+htmlcov/
+coverage.xml
+
+# Type-checking and linting caches
+.mypy_cache/
+.ruff_cache/
+
+# Editor files
+.vscode/
+.idea/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
